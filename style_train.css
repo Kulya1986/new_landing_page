@@ -1,0 +1,56 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #056b75;
+	text-align: center;
+	padding-top: 20%;
+}
+
+
+body{
+	 background: url(back_img.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	background-size: cover;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	font-size: 1.5rem;
+}
+
+.btn-warning{
+	background-color: #f18397;
+	border: 3px solid #b55063;
+}
+
+.btn-warning:hover{
+	background-color: #f3b2be;
+	border: 3px solid #b55063;
+}
+
+.btn-lx{
+	padding: 1.5rem 4rem;
+}
+
+hr{
+	margin: 20px auto;
+	border: 3px solid #b55063;
+	max-width: 80px;
+	border-radius: 10px;
+	opacity: 1;
+}
+
+.buffer{
+	height: 10rem;
+}
